@@ -55,8 +55,5 @@ class Partition(object):
         return Partition.lomuto_range_random(arr, 0, end)
 
 
-if __name__ == '__main__':
-    arr = [1, 3, 4, 1, 2, 5, 3]
-    arr1 = []
-    print(Partition.lomuto_random(arr))
-    print(arr)
+if __name__ == "__main__":
+    pass
